@@ -36,7 +36,7 @@ class HomeFragment : BaseFragment<HomeViewModel>() {
         // Find the custom Toolbar and set it as the ActionBar
         (requireActivity() as AppCompatActivity).setSupportActionBar(binding.toolbar.toolbar)
         // Set the title and other options for the ActionBar
-        (requireActivity() as AppCompatActivity).supportActionBar?.title = "Locker"
+        (requireActivity() as AppCompatActivity).supportActionBar?.title = "Spl"
         (requireActivity() as AppCompatActivity).supportActionBar?.setDisplayHomeAsUpEnabled(false)
 
 
