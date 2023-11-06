@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Locker</string>
+    <string name="login">Login</string>
+    <string name="user_name">User Name</string>
+    <string name="password">Password</string>
+    <string name="Submit">Submit</string>
+    <string name="test_peripherals">Test\nPeripherals</string>
+    <string name="pending_trans">Pending\nTransactions</string>
+    <string name="meachine_status">Machine \nStatus</string>
+</resources>

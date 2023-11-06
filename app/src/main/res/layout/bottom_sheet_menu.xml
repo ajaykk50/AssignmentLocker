@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:gravity="center_vertical"
+        android:drawablePadding="@dimen/_20sdp"
+        android:textSize="@dimen/_15sdp"
+        android:drawableStart="@drawable/lc_meachine_status"
+        android:textStyle="bold"
+        android:id="@+id/action_item1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_10sdp"
+        android:text="Machine Status" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey" />
+
+    <TextView
+        android:gravity="center_vertical"
+        android:drawablePadding="@dimen/_20sdp"
+        android:textSize="@dimen/_15sdp"
+        android:drawableStart="@drawable/ic_pending_trans"
+        android:textStyle="bold"
+        android:id="@+id/action_item2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_10sdp"
+        android:text="Pending Transactions" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey" />
+
+    <TextView
+        android:gravity="center_vertical"
+        android:drawablePadding="@dimen/_20sdp"
+        android:textSize="@dimen/_15sdp"
+        android:drawableStart="@drawable/ic_test"
+        android:textStyle="bold"
+        android:id="@+id/action_item3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_10sdp"
+        android:text="Test Peripherals" />
+
+</LinearLayout>
