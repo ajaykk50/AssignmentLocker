@@ -68,6 +68,11 @@ class RowAdapter(
             holder.textView?.visibility = View.VISIBLE
             holder.textView?.text =
                 groupedDataList.items.get(position).machineLocker.lockerNo.toString()
+
+            if(groupedDataList.items.get(position).machineLocker.size == 6)
+                holder.textView?.text = ""
+
+
         }
 
 
